@@ -1,13 +1,13 @@
 # jenkin
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAX7K6DEU3EFPPKNUG"
-  secret_key = "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"
+  access_key = "AKIAXFUX4QD3RDSAK2NL"
+  secret_key = "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"
 }
 
 ## 
 resource "aws_instance" "web" {
-  ami           = "ami-0c293f3f676ec4f90"
+  ami           = "ami-0e1d30f2c40c4c701"
   instance_type = "t2.micro"
 
   tags = {
